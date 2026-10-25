@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Test session cookies
+*cookies*.txt
+
+# macOS
+.DS_Store
